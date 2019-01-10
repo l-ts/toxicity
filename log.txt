@@ -1,0 +1,5 @@
+Train on 127656 samples, validate on 31915 samples
+Epoch 1/2
+127656/127656 [==============================] - 304s 2ms/step - loss: 0.0687 - acc: 0.9781 - val_loss: 0.0497 - val_acc: 0.9818
+Epoch 2/2
+127656/127656 [==============================] - 277s 2ms/step - loss: 0.0458 - acc: 0.9828 - val_loss: 0.0476 - val_acc: 0.9827
