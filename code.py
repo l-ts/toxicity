@@ -60,11 +60,11 @@ x = LSTM(60, return_sequences=True,name='lstm_layer')(x)
 x = GlobalMaxPool1D()(x)
 
 # set DropOut rate
-DROPOUT = 0.15
+DROPOUT = 0.10
 x = Dropout(DROPOUT)(x)
 
 # Dense layer to produce an output dimension of 50.
-DENSE = 60
+DENSE = 50
 x = Dense(DENSE, activation="relu")(x)
 
 x = Dropout(0.1)(x)
